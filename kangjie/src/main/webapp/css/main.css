@@ -49,7 +49,6 @@ footer {
   right: 0;
   padding-top: 15px;
   padding-bottom: 10px; }
-
 .copyright {
   margin-bottom: 0;
   text-align: right;
@@ -58,7 +57,14 @@ footer {
     .copyright {
       text-align: center;
       position: relative !important; } }
-
+.text_link{
+width:28px;
+height:15px;
+font-size:14px;
+font-family:MicrosoftYaHei;
+font-weight:400;
+color:rgba(10,123,247,1);
+}
 /********************
  * LAYOUT
  ********************/
