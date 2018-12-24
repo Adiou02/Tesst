@@ -178,7 +178,7 @@
 										</tbody>
 									</table>
 								</div>
-								<div class="panel-footer" style="position: absolute;width: 100%;border: 1px solid #E5E5E5;">
+								<div class="panel-footer" style="width: 100%;border: 1px solid #E5E5E5;">
 									<div style="margin-right:32px; margin-top: 20px;margin-bottom: 58px;">
 										<button style="width:34px;height|:28px;border-radius:4px;background-color: #FFFFFF;float: right;"><p style="margin:0px; color: #FF414141;">GO</p></button>
 										<input type="text" class="form-control" id=""  placeholder="" style="float: right; width: 36px; height: 28px;margin-right: 8px;border-color: #D2D2D2">
