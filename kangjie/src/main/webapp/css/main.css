@@ -23,10 +23,19 @@ a {
 th {
   font-weight: 600; }
 
+.page-title-before{
+	width:4px;
+	height:22px;
+	background:rgba(30,157,254,1);
+	float: left;
+}
 .page-title {
   margin-top: 0;
   margin-bottom: 30px;
-  font-weight: 300; }
+  margin-left:18px;
+  font-weight: 300; 
+  float: left;
+  }
 
 footer {
   position: absolute;
@@ -627,7 +636,9 @@ fieldset[disabled] .btn {
   -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
   background-color: #fff;
-  margin-bottom: 30px; }
+  margin-bottom: 30px; 
+  border-color: #E5E5E5;
+  }
   .panel .panel-heading,
   .panel .panel-body,
   .panel .panel-footer {
@@ -651,7 +662,10 @@ fieldset[disabled] .btn {
         font-size: 14px; }
   .panel .panel-body {
     padding-top: 10px;
-    padding-bottom: 15px; }
+    padding-bottom: 15px;
+    border-radius:5px;
+    
+     }
   .panel .panel-note {
     font-size: 13px;
     line-height: 2.6;
@@ -691,7 +705,7 @@ fieldset[disabled] .btn {
     padding-left: 25px; }
 
 .panel-footer {
-  background-color: #fafafa; }
+  background-color: #f7f7f7; }
 
 /********************
  * ELEMENTS
@@ -1120,6 +1134,7 @@ ul.activity-list > li {
     margin-left: 15%;
     margin-top: 15%;
     }
+    
   .auth-box .form-auth-small .btn {
     margin-top: 10%; }
   .auth-box .form-auth-small .element-left {

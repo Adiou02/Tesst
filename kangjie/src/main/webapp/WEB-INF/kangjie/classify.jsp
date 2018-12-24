@@ -101,13 +101,93 @@
 			<!-- MAIN CONTENT -->
 			<div class="main-content">
 				<div class="container-fluid">
+					<div class="page-title-before" style=""></div>
 					<h3 class="page-title">待分类报告</h3>
 					<div class="row">
 						<div class="col-md-12">
 							<div class="panel">
-								<div class="panel-body" style="background-color: #E5E5E5;">
-									<input type="text" class="form-control" id="signin-email"  placeholder="请输入姓名或编号">
-									<button type="submit" style="background-color: #0A7BF7;"><p style="color: white;"><i class="fa fa-search"></i>登录</p></button>
+								<form>
+									<div class="panel-body" style="background-color: #F7F7F7;">
+										<div style="width: 20%;float: left;margin-top: 30px;margin-bottom: 30px;">
+											<input style="border-color: #D2D2D2" type="text" class="form-control" id=""  placeholder="请输入姓名或编号">
+										</div>
+										<div style="float: left;margin-left: 18px;margin-top: 30px;margin-bottom: 30px;">
+											<button style="width:90px;height:34px;border-radius:4px;background-color: #0A7BF7;"><p style="margin:0px; color: white;"><i class="fa fa-search"></i> 登录</p></button>
+										</div>
+										<div style="float: left;margin-left: 18px;margin-top: 30px;margin-bottom: 30px;">
+											<button style="width:90px;height:34px;border-radius:4px;background-color: #FFFFFF;"><p style="margin:0px; color: #FF414141;"><i class="lnr lnr-sync"></i> 重置</p></button>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="panel">
+								<div class="panel-body">
+									<table class="table table-hover table-bordered" style="border-width: 1px;">
+										<thead style="background-color: #f7f7f7; font-weight: bold;">
+											<tr>
+												<td>检查时间</td>
+												<td>编号（手机号）</td>
+												<td>姓名</td>
+												<td>性别</td>
+												<td>出生年月</td>
+												<td>检查类型</td>
+												<td>操作</td>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>检查时间</td>
+												<td>编号（手机号）</td>
+												<td>姓名</td>
+												<td>性别</td>
+												<td>出生年月</td>
+												<td>检查类型</td>
+												<td>操作</td>
+											</tr>
+											<tr>
+												<td>检查时间</td>
+												<td>编号（手机号）</td>
+												<td>姓名</td>
+												<td>性别</td>
+												<td>出生年月</td>
+												<td>检查类型</td>
+												<td>操作</td>
+											</tr>
+											<tr>
+												<td>检查时间</td>
+												<td>编号（手机号）</td>
+												<td>姓名</td>
+												<td>性别</td>
+												<td>出生年月</td>
+												<td>检查类型</td>
+												<td>操作</td>
+											</tr>
+											<tr>
+												<td>检查时间</td>
+												<td>编号（手机号）</td>
+												<td>姓名</td>
+												<td>性别</td>
+												<td>出生年月</td>
+												<td>检查类型</td>
+												<td>操作</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								<div class="panel-footer" style="position: absolute;width: 100%;border: 1px solid #E5E5E5;">
+									<div style="margin-right:32px; margin-top: 20px;margin-bottom: 58px;">
+										<button style="width:34px;height|:28px;border-radius:4px;background-color: #FFFFFF;float: right;"><p style="margin:0px; color: #FF414141;">GO</p></button>
+										<input type="text" class="form-control" id=""  placeholder="" style="float: right; width: 36px; height: 28px;margin-right: 8px;border-color: #D2D2D2">
+										<p style="float: right;margin-right: 10px;">跳转到</p>
+										<button style="width:34px;height:28px;border-radiu1s:4px;background-color: #FFFFFF;float: right;margin-right: 25px;"><p style="margin:0px; color: #FF414141;"><i class="lnr lnr-chevron-right"></i></p></button>
+										<button style="width:34px;height:28px;border-radiu1s:4px;background-color: #FFFFFF;float: right;margin-right: 6px;"><p style="margin:0px; color: #FF414141;"><i class="lnr lnr-chevron-left"></i></p></button>
+										<p style="float: right;margin-right: 11px;">1/8页</p>	
+										<p style="float: right;margin-right: 14px;">共160条</p>									
+									</div>
 								</div>
 							</div>
 						</div>
