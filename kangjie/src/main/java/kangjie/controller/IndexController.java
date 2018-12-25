@@ -34,4 +34,8 @@ public String toView(){
 public String toViewed(){
 	return "kangjie/viewed";
 }
+@RequestMapping("/todetailed1")
+public String toDetailed1(){
+	return "kangjie/detailed1";
+}
 }

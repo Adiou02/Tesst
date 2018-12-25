@@ -715,7 +715,9 @@ fieldset[disabled] .btn {
   .panel .table > tfoot > tr > td:last-child,
   .panel .table > tfoot > tr > th:last-child {
     padding-left: 25px; }
-
+.panel-heading{
+	background-color: #f7f7f7;
+}
 .panel-footer {
   background-color: #f7f7f7; }
 
@@ -1851,4 +1853,13 @@ ul.activity-timeline > li {
   .project-table > tbody > tr > td .avatar {
     width: 22px;
     border: 1px solid #CCC; }
+    
+    
+.easypie canvas {
+  position: absolute;
+  left: 0;
+  width: 95px;
+  height: 95px;
+  top: 0;
+}
 
