@@ -640,8 +640,18 @@ fieldset[disabled] .btn {
   filter: alpha(opacity=40); }
 
 /********************
- * PANELS
+ * PANELS   #FF4D94
  ********************/
+.fa-venus:before {
+ content: "\f221";
+	 width:24px;
+	height:24px;
+	background:rgba(255,77,148,1);
+	border-radius:50%;
+  display: inline;
+  color: #FFFFFF;
+  font-size:24px;
+}
  .div-inline{ display:inline}
 .panel {
   -webkit-border-radius: 3px;

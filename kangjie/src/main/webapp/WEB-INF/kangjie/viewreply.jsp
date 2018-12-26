@@ -109,7 +109,7 @@
 								<div class="panel-heading">
 									<div class="panel-title-before" style=""></div>
 									<h3 class="panel-title">基本信息</h3>
-									<div class="panel-gender"></div>
+									<div class="fa fa-venus" style=""></div>
 									<div class="panel-name">张三</div>
 									<div class="panel-id">ID : 18710998996</div>
 									<div class="panel-age">66周岁</div>
@@ -140,6 +140,9 @@
 								</div>
 								<div class="panel-body">
 								<textarea class="form-control" placeholder="请输入相关信息进行回复" rows="10"></textarea>
+								</div>
+								<div class="panel-heading">
+									<button style="width:90px;height:36px;border-radius:4px;background-color: #0A7BF7;display:block;margin:0 auto"><p style="margin:0px; color: white;"> 发送</p></button>
 								</div>
 							</div>
 						</div>
