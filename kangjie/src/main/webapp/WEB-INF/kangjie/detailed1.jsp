@@ -14,7 +14,6 @@
 	<link rel="stylesheet" href="vendor/linearicons/style.css">
 	<link rel="stylesheet" href="vendor/chartist/css/chartist-custom.css">						<!-- 等级 -->
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" charset="utf-8"/>	<!-- 切换 -->
-	<link rel="stylesheet" href="css/css.css" type="text/css" />								<!-- 放大 -->
 	<!-- MAIN CSS -->
 	<link rel="stylesheet" href="css/main.css">
 	<!-- FOR DEMO PURPOSES ONLY. You should remove this in your project -->
@@ -158,6 +157,17 @@
 								<div class="panel-heading">
 								</div>
 								<div class="panel-body">
+									    <img class="pimg" height="100" width="100" src="img/profile-bg.png" />
+									    <img class="pimg" height="100" width="100" src="img/profile-bg.png" />
+									    <img class="pimg" height="100" width="100" src="img/profile-bg.png" />
+									
+									
+									
+									<div id="outerdiv" style="position:fixed;top:0;left:0;background:rgba(0,0,0,0.7);z-index:2;width:100%;height:100%;display:none;">
+									    <div id="innerdiv" style="position:absolute;">
+									        <img id="bigimg" style="border:5px solid #fff;" src="" />
+									    </div>
+									</div>   
 								</div>
 								<div class="panel-footer">
 								</div>
@@ -182,8 +192,7 @@
 	<script src="scripts/easypiechart-plugin.js"></script>			<!-- 等级 -->
 	<script src="scripts/prefixfree.min.js"></script>				<!-- 切换 -->
 	<script src="scripts/zoom-slideshow.js"></script>				<!-- 切换 -->
-	<script src="scripts/jqueryLibrary.min.js"></script>			<!-- 放大 -->
-	<script src="scripts/jquery.imgbox.pack.js"></script>			<!-- 放大 -->
+	<script src="scripts/imgShow.js"></script>						<!-- 放大 -->
 	<script>
 		$(document).ready(function() {
 			$('#view').setZoomPicture({
@@ -194,16 +203,10 @@
 				zoomLevel: 2,
 				loadMsg: 'Chargement...'
 			}); 
-		});
-		$(function(){
-			$(".example1").imgbox();
-			$(".example2").imgbox({
-				'speedIn'		: 0,
-				'speedOut'		: 0,
-				'alignment'		: 'center',
-				'overlayShow'	: true,
-				'allowMultiple'	: false
-			});
+			 $(".pimg").click(function(){  
+		            var _this = $(this);//将当前的pimg元素作为_this传入函数  
+		            imgShow("#outerdiv", "#innerdiv", "#bigimg", _this);  
+		    });  
 		});
 	</script>
 </body>
