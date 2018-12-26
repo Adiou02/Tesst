@@ -87,7 +87,6 @@
 							<div id="view" class="collapse ">
 								<ul class="nav">
 									<li><a href="toview.do" class="">未查看<span class="label label-primary">13</span></a></li>
-									<li><a href="toview.do" class="">未查看详情<span class="label label-primary">13</span></a></li>
 									<li><a href="toviewed.do" class="">已查看</a></li>
 								</ul>
 							</div>
