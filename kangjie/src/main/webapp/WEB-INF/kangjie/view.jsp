@@ -146,7 +146,7 @@
 												<td>男</td>
 												<td>1990-11-01</td>
 												<td>18719023768</td>
-												<td><a href="#"><img src="img/see.png"><span class="text_link">查看</span></a></td>
+												<td><a href="toviewreply.do"><img src="img/see.png"><span class="text_link">查看</span></a></td>
 											</tr>
 											<tr>
 												<td>2017-01-04 20：30</td>

@@ -467,10 +467,12 @@ ul.list-justify > li {
   box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.1);
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
-  border-radius: 5px;
+  border-radius:0px 0px 4px 4px;
   border-width: 2px;
   border-color: #a4bad4;
-  background-color: #fcfcfc; }
+  border:1px solid rgba(229,229,229,1);
+  background:rgba(255,255,255,1);
+   }
   .form-control:focus {
     -moz-box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.1);
     -webkit-box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.1);
@@ -640,6 +642,7 @@ fieldset[disabled] .btn {
 /********************
  * PANELS
  ********************/
+ .div-inline{ display:inline}
 .panel {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -651,6 +654,7 @@ fieldset[disabled] .btn {
   margin-bottom: 30px; 
   border-color: #E5E5E5;
   }
+ 
   .panel .panel-heading,
   .panel .panel-body,
   .panel .panel-footer {
@@ -660,10 +664,73 @@ fieldset[disabled] .btn {
     padding-top: 20px;
     padding-bottom: 20px;
     position: relative; }
+    .panel .panel-heading .panel-title-before{
+		width:4px;
+		height:16px;
+		background:rgba(10,123,247,1);
+		float: left;
+		margin-left: 0px;
+		vertical-align: middle;
+	}
     .panel .panel-heading .panel-title {
       margin: 0;
       font-size: 18px;
-      font-weight: 300; }
+      font-weight: 300; 
+      margin-left: 10px;
+      vertical-align: middle;}
+     .panel .panel-heading .panel-gender {
+        width:24px;
+		height:24px;
+		background:rgba(255,77,148,1);
+		display: inline;}
+    .panel .panel-heading .panel-name {
+      width:39px;
+		height:20px;
+		font-size:20px;
+		font-family:MicrosoftYaHei-Bold;
+		font-weight:bold;
+		color:rgba(51,51,51,1);
+		display: inline;}
+	.panel .panel-heading .panel-id {
+      width:133px;
+		height:12px;
+		font-size:16px;
+		font-family:MicrosoftYaHei;
+		font-weight:400;
+		color:rgba(51,51,51,1);
+		display: inline;
+		margin-left: 19px;}
+	.panel .panel-heading .panel-age {
+      width:33px;
+		height:15px;
+		font-size:16px;
+		font-family:MicrosoftYaHei;
+		font-weight:400;
+		color:rgba(51,51,51,1);
+		display: inline;
+		margin-left: 19px;}
+	.panel .panel-line {
+		width:1550px;
+		height:1px;
+		background:rgba(229,229,229,1);
+		margin-left: 17px;
+	}
+	.panel .panel-heading .panel-item {
+		height:14px;
+		font-size:14px;
+		font-family:MicrosoftYaHei;
+		font-weight:400;
+		color:rgba(65,65,65,1);
+		display: inline;
+		margin-left: 50px;}
+	.panel .panel-heading .panel-value {
+		height:11px;
+		font-size:14px;
+		font-family:MicrosoftYaHei;
+		font-weight:400;
+		color:rgba(112,112,112,1);
+		display: inline;
+		margin-left: 3px;}
     .panel .panel-heading button {
       padding: 0;
       margin-left: 5px;
@@ -673,10 +740,10 @@ fieldset[disabled] .btn {
       .panel .panel-heading button i {
         font-size: 14px; }
   .panel .panel-body {
-    padding-top: 10px;
-    padding-bottom: 15px;
     border-radius:5px;
-    
+    padding: 0px;
+    border:1px solid rgba(229,229,229,1);
+    border-radius:0px 0px 4px 4px;
      }
   .panel .panel-note {
     font-size: 13px;

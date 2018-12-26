@@ -38,4 +38,8 @@ public String toViewed(){
 public String toDetailed1(){
 	return "kangjie/detailed1";
 }
+@RequestMapping("/toviewreply")
+public String toViewreply(){
+	return "kangjie/viewreply";
+}
 }
