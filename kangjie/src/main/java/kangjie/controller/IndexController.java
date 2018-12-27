@@ -42,4 +42,9 @@ public String toDetailed1(){
 public String toViewreply(){
 	return "kangjie/viewreply";
 }
+@RequestMapping("/toviewreplied")
+public String toViewreplied(){
+	return "kangjie/viewreplied";
+}
+
 }

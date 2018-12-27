@@ -594,7 +594,23 @@ ul.list-justify > li {
   -webkit-box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.2);
   padding: 6px 22px; }
-
+.btn-return{
+	width:85px;
+	height:32px;
+	background:rgba(255,255,255,1);
+	border:1px solid rgba(210,210,210,1);
+	border-radius:4px;
+	display:inline;
+	margin-left:0px;
+	margin-bottom: 20px;
+}
+.btn-return .btn-return-text{
+	margin:0px; 
+	color: rgba(65,65,65,1);
+	font-weight:400;
+	font-size:16px;
+	font-family:MicrosoftYaHei;
+}
 .btn-group-lg > .btn,
 .btn-lg {
   padding: 10px 28px; }
@@ -642,16 +658,7 @@ fieldset[disabled] .btn {
 /********************
  * PANELS   #FF4D94
  ********************/
-.fa-venus:before {
- content: "\f221";
-	 width:24px;
-	height:24px;
-	background:rgba(255,77,148,1);
-	border-radius:50%;
-  display: inline;
-  color: #FFFFFF;
-  font-size:24px;
-}
+
  .div-inline{ display:inline}
 .panel {
   -webkit-border-radius: 3px;
@@ -663,9 +670,12 @@ fieldset[disabled] .btn {
   background-color: #fff;
   margin-bottom: 30px; 
   border-color: #E5E5E5;
+  margin-left: 0px;
   }
  
-  .panel .panel-heading,
+  .panel .panel-heading{
+  margin-left: 0px;
+  }
   .panel .panel-body,
   .panel .panel-footer {
     padding-left: 25px;
@@ -691,6 +701,7 @@ fieldset[disabled] .btn {
      .panel .panel-heading .panel-gender {
         width:24px;
 		height:24px;
+		border-radius:50%;
 		background:rgba(255,77,148,1);
 		display: inline;}
     .panel .panel-heading .panel-name {
@@ -755,6 +766,14 @@ fieldset[disabled] .btn {
     border:1px solid rgba(229,229,229,1);
     border-radius:0px 0px 4px 4px;
      }
+     .panel .panel-body .p{
+     width:326px;
+	height:17px;
+	font-size:16px;
+	font-family:MicrosoftYaHei;
+	font-weight:400;
+	color:rgba(51,51,51,1);
+     }
   .panel .panel-note {
     font-size: 13px;
     line-height: 2.6;
@@ -797,6 +816,14 @@ fieldset[disabled] .btn {
 }
 .panel-footer {
   background-color: #f7f7f7; }
+.panel-text{
+	width:326px;
+	height:17px;
+	font-size:16px;
+	font-family:MicrosoftYaHei;
+	font-weight:400;
+	color:rgba(51,51,51,1);
+}
 
 /********************
  * ELEMENTS

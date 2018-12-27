@@ -112,7 +112,7 @@
 											<input style="border-color: #D2D2D2" type="text" class="form-control" id=""  placeholder="请输入姓名或编号">
 										</div>
 										<div style="float: left;margin-left: 18px;margin-top: 30px;margin-bottom: 30px;">
-											<button style="width:90px;height:34px;border-radius:4px;background-color: #0A7BF7;"><p style="margin:0px; color: white;"><i class="fa fa-search"></i> 登录</p></button>
+											<button style="width:90px;height:34px;border-radius:4px;background-color: #0A7BF7;"><p style="margin:0px; color: white;"><i class="fa fa-search"></i> 查询</p></button>
 										</div>
 										<div style="float: left;margin-left: 18px;margin-top: 30px;margin-bottom: 30px;">
 											<button style="width:90px;height:34px;border-radius:4px;background-color: #FFFFFF;"><p style="margin:0px; color: #FF414141;"><i class="lnr lnr-sync"></i> 重置</p></button>
