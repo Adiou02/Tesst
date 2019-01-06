@@ -4,7 +4,7 @@
 <html lang="en">
 
 <head>
-	<title>Charts | Klorofil - Free Bootstrap Dashboard Template</title>
+	<title>Charts | Klorofil - Free Bootstrap DashboardH Template</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -12,8 +12,8 @@
 	<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="vendor/linearicons/style.css">
-	<link rel="stylesheet" href="vendor/chartist/css/chartist-custom.css">						<!-- 等级 -->
-	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" charset="utf-8"/>	<!-- 切换 -->
+	<link rel="stylesheet" href="vendor/chartist/css/chartist-custom.css">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" charset="utf-8"/>
 	<!-- MAIN CSS -->
 	<link rel="stylesheet" href="css/main.css">
 	<!-- FOR DEMO PURPOSES ONLY. You should remove this in your project -->
@@ -102,17 +102,29 @@
 			<!-- MAIN CONTENT -->
 			<div class="main-content">
 				<div class="container-fluid">
-					<h3 class="page-title">Charts</h3>
+					<button class="title-button"><p style="margin:0px; color: #FF414141;"><i class="lnr lnr-chevron-left"></i> 返回</p></button>
+					<button class="title-button" style="margin-left: 10px;"><p style="margin:0px; color: #FF414141;"><i class="lnr lnr-arrow-down"></i> 下一个</p></button>
+					<div style="margin-top: 29px;"></div>
 					<div class="row">
 						<div class="col-md-12">
 							<div class="panel">
 								<div class="panel-heading">
-									<h3 class="panel-title">等级</h3>
-								</div>
-								<div class="panel-body">
-									<div class="easypie" data-percent="20" style="display: inline-block;width: 95px;font-size: 12px;
-									height: 95px;margin: 0 20px 20px 0px;vertical-align: top;position: relative;text-align: center;
-									padding-top: 29px;border-radius: 999px;"><div>1级</div><div>无DR</div></div>  
+									<div>
+										<div class="before-blue"></div>
+										<p class="before-title">基本信息</p>
+									</div>
+									<div style="clear:both"></div>
+									<div style="margin-top: 16px;">
+										<img src="img/women.png" style="float: left;"><p class="before-name">张三</p><p class="before-id">ID : 18710998996</p><p class="before-age">66岁</p>   
+									</div>
+									<div style="margin-top: 59px;"></div>   
+								</div> 
+								<div class="panel-footer">
+									<p class="before-search">检查时间</p>
+									<p class="before-search-2">2017-01-04  20：30 </p>
+									<p class="before-type">检查类型：</p>
+									<p class="before-type-2">眼底检查</p>
+									<div style="margin-top: 30px;"></div>
 								</div>
 							</div>
 						</div>
@@ -121,43 +133,27 @@
 						<div class="col-md-12">
 							<div class="panel">
 								<div class="panel-heading">
-									<h3 class="panel-title">切换图</h3>
-								</div>
+									<div class="before-blue"></div>
+									<p class="before-title">图像</p>
+								</div> 
+								<div style="clear:both"></div>
 								<div class="panel-body">
 									<div id="content1">
 										<div id="thumbs">
 											<div id="nav-left-thumbs"><</div>
 											<div id="pics-thumbs">
-												<img src="img/user1.png" alt="user1" />
-												<img src="img/user2.png" alt="user2" />
-												<img src="img/user3.png" alt="user3" />
-												<img src="img/user4.png" alt="user4" />
-												<img src="img/user5.png" alt="user5" />
-												<img src="img/user1.png" alt="user1" />
-												<img src="img/user2.png" alt="user2" />
-												<img src="img/user3.png" alt="user3" />
-												<img src="img/user4.png" alt="user4" />
-												<img src="img/user5.png" alt="user5" />
-												<img src="img/user1.png" alt="user1" />
-												<img src="img/user2.png" alt="user2" />
-												<img src="img/user3.png" alt="user3" />
-												<img src="img/user4.png" alt="user4" />
-												<img src="img/user5.png" alt="user5" />
-												<img src="img/user1.png" alt="user1" />
-												<img src="img/user2.png" alt="user2" />
-												<img src="img/user3.png" alt="user3" />
-												<img src="img/user4.png" alt="user4" />
-												<img src="img/user5.png" alt="user5" />
-												<img src="img/user1.png" alt="user1" />
-												<img src="img/user2.png" alt="user2" />
-												<img src="img/user3.png" alt="user3" />
-												<img src="img/user4.png" alt="user4" />
-												<img src="img/user5.png" alt="user5" />
-												<img src="img/user1.png" alt="user1" />
-												<img src="img/user2.png" alt="user2" />
-												<img src="img/user3.png" alt="user3" />
-												<img src="img/user4.png" alt="user4" />
-												<img src="img/user5.png" alt="user5" />
+												<img src="img/1B.jpg"/>
+												<img src="img/2B.jpg"/>
+												<img src="img/1B.jpg"/>
+												<img src="img/2B.jpg"/>
+												<img src="img/1B.jpg"/>
+												<img src="img/2B.jpg"/>
+												<img src="img/1B.jpg"/>
+												<img src="img/2B.jpg"/>
+												<img src="img/1B.jpg"/>
+												<img src="img/2B.jpg"/>
+												<img src="img/1B.jpg"/>
+												<img src="img/2B.jpg"/>
 											</div>
 											<div id="nav-right-thumbs">></div>
 										</div>
@@ -167,24 +163,47 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-12">
+						<div class="col-md-4">
 							<div class="panel">
 								<div class="panel-heading">
+									<div class="before-blue"></div>
+									<p class="before-title">智能评估</p>
 								</div>
 								<div class="panel-body">
-									    <img class="pimg" height="100" width="100" src="img/profile-bg.png" />
-									    <img class="pimg" height="100" width="100" src="img/profile-bg.png" />
-									    <img class="pimg" height="100" width="100" src="img/profile-bg.png" />
-									
-									
-									
-									<div id="outerdiv" style="position:fixed;top:0;left:0;background:rgba(0,0,0,0.7);z-index:2;width:100%;height:100%;display:none;">
-									    <div id="innerdiv" style="position:absolute;">
-									        <img id="bigimg" style="border:5px solid #fff;" src="" />
-									    </div>
-									</div>   
+									<div style="margin-top:52px; margin-left: 60px; margin-bottom: 101px;">
+										<div style="float: left;">
+										<div class="easypie" data-percent="10" style="display: inline-block;width: 95px;font-size: 12px;
+										height: 95px;margin: 0 20px 20px 0px;vertical-align: top;position: relative;text-align: center;
+										padding-top: 29px;border-radius: 999px;"><div class="left-eye">0级</div><div class="left-eye2">无DR</div><div style="margin-top: 60px;">左眼分级</div></div>
+										</div>
+										<div style="float: left; margin-left: 54px;">
+										<div class="easypie" data-percent="20" style="display: inline-block;width: 95px;font-size: 12px;
+										height: 95px;margin: 0 20px 20px 0px;vertical-align: top;position: relative;text-align: center;
+										padding-top: 29px;border-radius: 999px;"><div class="right-eye">1级</div><div class="right-eye2">无DR</div><div style="margin-top: 60px;">右眼分级</div></div>
+										</div>   
+									</div>
+									<div style="clear:both"></div>
+									<div style="margin-top: 54px;"></div>  
 								</div>
-								<div class="panel-footer">
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="panel">
+								<div class="panel-heading">
+									<div class="before-blue"></div>
+									<p class="before-title">评估意见</p>
+								</div>
+								<div class="panel-body">
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="panel">
+								<div class="panel-heading">
+									<div class="before-blue"></div>
+									<p class="before-title">综合建议</p>
+								</div>
+								<div class="panel-body">
 								</div>
 							</div>
 						</div>
@@ -204,10 +223,9 @@
 	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 	<script src="vendor/jquery-slimscroll/jquery.slimscroll.min.js"></script>
 	<script src="scripts/klorofil-common.js"></script>
-	<script src="scripts/easypiechart-plugin.js"></script>			<!-- 等级 -->
-	<script src="scripts/prefixfree.min.js"></script>				<!-- 切换 -->
-	<script src="scripts/zoom-slideshow.js"></script>				<!-- 切换 -->
-	<script src="scripts/imgShow.js"></script>						<!-- 放大 -->
+	<script src="scripts/prefixfree.min.js"></script>				
+	<script src="scripts/zoom-slideshow.js"></script>
+	<script src="scripts/easypiechart-plugin.js"></script>   
 	<script>
 		$(document).ready(function() {
 			$('#view').setZoomPicture({
@@ -218,11 +236,6 @@
 				zoomLevel: 2,
 				loadMsg: 'Chargement...'
 			}); 
-			 $(".pimg").click(function(){  
-		            var _this = $(this);//将当前的pimg元素作为_this传入函数  
-		            imgShow("#outerdiv", "#innerdiv", "#bigimg", _this);  
-		    });  
-			 
 		});
 	</script>
 </body>

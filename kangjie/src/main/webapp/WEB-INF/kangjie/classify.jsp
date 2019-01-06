@@ -107,14 +107,14 @@
 							<div class="panel">
 								<form>
 									<div class="panel-body" style="background-color: #F7F7F7;">
-										<div style="width: 20%;float: left;margin-top: 30px;margin-bottom: 30px;">
+										<div style="width: 20%;float: left;margin-top: 30px;margin-bottom: 30px; margin-left: 20px;">
 											<input style="border-color: #D2D2D2" type="text" class="form-control" id=""  placeholder="请输入姓名或编号">
 										</div>
 										<div style="float: left;margin-left: 18px;margin-top: 30px;margin-bottom: 30px;">
 											<button style="width:90px;height:34px;border-radius:4px;background-color: #0A7BF7;"><p style="margin:0px; color: white;"><i class="fa fa-search"></i> 登录</p></button>
 										</div>
 										<div style="float: left;margin-left: 18px;margin-top: 30px;margin-bottom: 30px;">
-											<button style="width:90px;height:34px;border-radius:4px;background-color: #FFFFFF;"><p style="margin:0px; color: #FF414141;"><i class="lnr lnr-sync"></i> 重置</p></button>
+											<button class="title-button"><p style="margin:0px; color: #FF414141;"><i class="lnr lnr-sync"></i> 重置</p></button>
 										</div>
 									</div>
 								</form>
@@ -145,7 +145,7 @@
 												<td>性别</td>
 												<td>出生年月</td>
 												<td>检查类型</td>
-												<td>操作</td>
+												<td><a style="color: #0A7BF7;" href="toclassify2.do"><img src="img/classify.png">操作</a></td>
 											</tr>
 											<tr>
 												<td>检查时间</td>
@@ -154,7 +154,7 @@
 												<td>性别</td>
 												<td>出生年月</td>
 												<td>检查类型</td>
-												<td>操作</td>
+												<td><a style="color: #0A7BF7;" href="toclassify2.do"><img src="img/classify.png">操作</a></td>
 											</tr>
 											<tr>
 												<td>检查时间</td>
@@ -163,7 +163,7 @@
 												<td>性别</td>
 												<td>出生年月</td>
 												<td>检查类型</td>
-												<td>操作</td>
+												<td><a style="color: #0A7BF7;" href="toclassify2.do"><img src="img/classify.png">操作</a></td>
 											</tr>
 											<tr>
 												<td>检查时间</td>
@@ -172,7 +172,7 @@
 												<td>性别</td>
 												<td>出生年月</td>
 												<td>检查类型</td>
-												<td>操作</td>
+												<td><a style="color: #0A7BF7;" href="toclassify2.do"><img src="img/classify.png">操作</a></td>
 											</tr>
 										</tbody>
 									</table>
