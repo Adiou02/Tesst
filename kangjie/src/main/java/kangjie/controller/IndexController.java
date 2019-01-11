@@ -22,6 +22,10 @@ public String toClassify2(){
 public String toClassfied(){
 	return "kangjie/classified";
 }
+@RequestMapping("/toclassified2")
+public String toClassfied2(){
+	return "kangjie/classified2";
+}
 @RequestMapping("/toaudit")
 public String toAudit(){
 	return "kangjie/audit";
@@ -33,6 +37,10 @@ public String toAudit2(){
 @RequestMapping("/toaudited")
 public String toAudited(){
 	return "kangjie/audited";
+}
+@RequestMapping("/toaudited2")
+public String toAudited2(){
+	return "kangjie/audited2";
 }
 @RequestMapping("/toview")
 public String toView(){

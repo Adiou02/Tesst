@@ -4,7 +4,7 @@
 <html lang="en">
 
 <head>
-	<title>Charts | Klorofil - Free Bootstrap Dashboard Template</title>
+	<title>康捷医疗客服管理平台 </title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -65,8 +65,8 @@
 				<nav>
 					<ul class="nav">
 						<li>
-							<a href="#classify" data-toggle="collapse" class="collapsed"><i class="lnr lnr-file-empty"></i> <span>报告分类</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
-							<div id="classify" class="collapse ">
+							<a href="#classify" data-toggle="collapse" class="active" aria-expanded="true" ><i class="lnr lnr-file-empty"></i> <span>报告分类</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
+							<div id="classify" class="collapse in" aria-expanded="true">
 								<ul class="nav">
 									<li><a href="toclassify.do" class="">待分类报告<span class="label label-primary">80</span></a></li>
 									<li><a href="toclassified.do" class="">已分类报告</a></li>
@@ -74,8 +74,8 @@
 							</div>
 						</li>
 						<li>
-							<a href="#audit" data-toggle="collapse" class="collapsed"><i class="lnr lnr-file-empty"></i> <span>审核医生</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
-							<div id="audit" class="collapse ">
+							<a href="#audit" data-toggle="collapse" class="collapsed" aria-expanded="true" ><i class="lnr lnr-file-empty"></i> <span>审核医生</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
+							<div id="audit" class="collapse in" aria-expanded="true">
 								<ul class="nav">
 									<li><a href="toaudit.do" class="">待审批医生<span class="label label-primary">20</span></a></li>
 									<li><a href="toaudited.do" class="">已审批医生</a></li>
@@ -83,8 +83,8 @@
 							</div>
 						</li>
 						<li>
-							<a href="#view" data-toggle="collapse" class="collapsed"><i class="lnr lnr-file-empty"></i> <span>用户反馈</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
-							<div id="view" class="collapse ">
+							<a href="#view" data-toggle="collapse" class="collapsed" aria-expanded="true" ><i class="lnr lnr-file-empty"></i> <span>用户反馈</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
+							<div id="view" class="collapse in" aria-expanded="true">
 								<ul class="nav">
 									<li><a href="toview.do" class="">未查看<span class="label label-primary">13</span></a></li>
 									<li><a href="toviewed.do" class="">已查看</a></li>
@@ -108,7 +108,7 @@
 							<div class="panel">
 								<form>
 									<div class="panel-body" style="background-color: #F7F7F7;">
-										<div style="width: 20%;float: left;margin-top: 30px;margin-bottom: 30px;">
+										<div style="width: 20%;float: left;margin-top: 30px;margin-bottom: 30px; margin-left: 20px;">
 											<input style="border-color: #D2D2D2" type="text" class="form-control" id=""  placeholder="请输入姓名或编号">
 										</div>
 										<div style="float: left;margin-left: 18px;margin-top: 30px;margin-bottom: 30px;">

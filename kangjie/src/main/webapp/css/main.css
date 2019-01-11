@@ -34,6 +34,14 @@ th {
 	height:16px;
 	background:rgba(10,123,247,1);
 	float: left;
+	margin-left: 0px; 
+}
+.before-blue2{
+	width:2px;
+	height:11px;
+	background:rgba(10,123,247,1);
+	float: left;
+	margin-left: 0px; 
 }
 .before-title{
 	font-size: 14px;
@@ -41,6 +49,25 @@ th {
 	font-weight: 400; 
 	margin-left: 10px; 
 	width: 57px;
+}
+.before-result{
+	float:left;
+	width:90px;
+	height:18px;
+	font-size:18px;
+	font-family:MicrosoftYaHei-Bold;
+	font-weight:bold;
+	color:rgba(65,65,65,1);
+}
+.before-result-value{
+	float:left;
+	width:100px;
+	height:18px;
+	font-size:18px;
+	font-family:MicrosoftYaHei-Bold;
+	font-weight:bold;
+	color:rgba(10,123,247,1);
+	margin-left: 3px;
 }
 .before-name{
 	float:left; 
@@ -61,7 +88,7 @@ th {
 }
 .before-search{
 	float:left;
-	width:65px;
+	width:70px;
 	height:14px;
 	font-size:14px;
 	font-family:MicrosoftYaHei;
@@ -77,6 +104,68 @@ th {
 	font-weight:400;
 	color:rgba(112,112,112,1);
 	margin-left: 11px;    
+}
+.before-times{
+	float:left;
+	width:70px;
+	height:14px;
+	font-size:14px;
+	font-family:MicrosoftYaHei;
+	font-weight:400;
+	color:rgba(65,65,65,1);
+	margin-left: 2px;
+}
+.before-times-2{
+	float:left;
+	width:10px;
+	height:11px;
+	font-size:14px;
+	font-family:MicrosoftYaHei;
+	font-weight:400;
+	color:rgba(112,112,112,1);
+	margin-left: 2px;
+}
+.before-retime{
+	float:left;
+	width:70px;
+	height:14px;
+	font-size:14px;
+	font-family:MicrosoftYaHei;
+	font-weight:400;
+	color:rgba(65,65,65,1);
+	margin-left: 30px;
+
+}
+.before-retime-2{
+	float:left;
+	width:132px;
+	height:11px;
+	font-size:14px;
+	font-family:MicrosoftYaHei;
+	font-weight:400;
+	color:rgba(112,112,112,1);
+	margin-left: 2px;    
+}
+.before-tel{
+	float:left;
+	width:70px;
+	height:14px;
+	font-size:14px;
+	font-family:MicrosoftYaHei;
+	font-weight:400;
+	color:rgba(65,65,65,1);
+	margin-left: 30px;
+
+}
+.before-tel-2{
+	float:left;
+	width:80px;
+	height:11px;
+	font-size:14px;
+	font-family:MicrosoftYaHei;
+	font-weight:400;
+	color:rgba(112,112,112,1);
+	margin-left: 2px;    
 }
 .before-type{
 	float:left;
@@ -97,6 +186,26 @@ th {
 	font-weight:400;
 	color:rgba(112,112,112,1);
 	margin-left: 10px;
+}
+.judge_before{
+	width:28px;
+	height:14px;
+	font-size:14px;
+	font-family:SourceHanSansCN-Regular;
+	font-weight:400;
+	color:rgba(10,123,247,1);
+	margin-left: 10px;
+	margin-top: 33px;
+}
+.judge_text{
+	width:306px;
+	height:14px;
+	font-size:14px;
+	font-family:SourceHanSansCN-Normal;
+	font-weight:400;
+	color:rgba(106,107,108,1);
+	margin-left: 10px;
+	margin-top: 33px;
 }
 .left-eye{
 	width:36px;
@@ -197,11 +306,13 @@ color:rgba(10,123,247,1);
  * LAYOUT
  ********************/
 #wrapper .sidebar {
+/**
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  **/
   width: 260px;
   height: 100%;
   float: left;
@@ -555,7 +666,7 @@ ul.notifications > li {
       -o-transition: all 0.3s ease-in-out;
       transition: all 0.3s ease-in-out;
       position: relative;
-      margin-left: 50px;
+      margin-left: 0px;
       top: -2px; }
     .sidebar .nav .nav {
       background-color: #252c35; }
@@ -714,6 +825,20 @@ ul.list-justify > li {
 /********************
  * BUTTONS
  ********************/
+.btn-normal {
+	width:90px;
+	height:36px;
+	background:rgba(62,196,155,1);
+	border-radius:4px;
+}
+.btn-text{
+	width:41px;
+	height:17px;
+	font-size:18px;
+	font-family:MicrosoftYaHei;
+	font-weight:400;
+	color:rgba(255,255,255,1);
+}
 .btn {
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -809,8 +934,9 @@ fieldset[disabled] .btn {
     padding-left: 25px;
     padding-right: 25px; }
   .panel .panel-heading {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-left: 0px;
     position: relative; }
     .panel .panel-heading .panel-title-before{
 		width:4px;
@@ -2090,8 +2216,8 @@ ul.activity-timeline > li {
 .easypie canvas {
   position: absolute;
   left: 0;
-  width: 95px;
-  height: 95px;
+  width: 127px;
+  height: 127px;
   top: 0;
 }
 

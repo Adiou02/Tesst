@@ -4,7 +4,7 @@
 <html lang="en">
 
 <head>
-	<title>Charts | Klorofil - Free Bootstrap DashboardH Template</title>
+	<title>康捷医疗客服管理平台 </title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -66,8 +66,8 @@
 				<nav>
 					<ul class="nav">
 						<li>
-							<a href="#classify" data-toggle="collapse" class="collapsed"><i class="lnr lnr-file-empty"></i> <span>报告分类</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
-							<div id="classify" class="collapse ">
+							<a href="#classify" data-toggle="collapse" class="active" aria-expanded="true" ><i class="lnr lnr-file-empty"></i> <span>报告分类</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
+							<div id="classify" class="collapse in" aria-expanded="true">
 								<ul class="nav">
 									<li><a href="toclassify.do" class="">待分类报告<span class="label label-primary">80</span></a></li>
 									<li><a href="toclassified.do" class="">已分类报告</a></li>
@@ -75,8 +75,8 @@
 							</div>
 						</li>
 						<li>
-							<a href="#audit" data-toggle="collapse" class="collapsed"><i class="lnr lnr-file-empty"></i> <span>审核医生</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
-							<div id="audit" class="collapse ">
+							<a href="#audit" data-toggle="collapse" class="collapsed" aria-expanded="true" ><i class="lnr lnr-file-empty"></i> <span>审核医生</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
+							<div id="audit" class="collapse in" aria-expanded="true">
 								<ul class="nav">
 									<li><a href="toaudit.do" class="">待审批医生<span class="label label-primary">20</span></a></li>
 									<li><a href="toaudited.do" class="">已审批医生</a></li>
@@ -84,8 +84,8 @@
 							</div>
 						</li>
 						<li>
-							<a href="#view" data-toggle="collapse" class="collapsed"><i class="lnr lnr-file-empty"></i> <span>用户反馈</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
-							<div id="view" class="collapse ">
+							<a href="#view" data-toggle="collapse" class="collapsed" aria-expanded="true" ><i class="lnr lnr-file-empty"></i> <span>用户反馈</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
+							<div id="view" class="collapse in" aria-expanded="true">
 								<ul class="nav">
 									<li><a href="toview.do" class="">未查看<span class="label label-primary">13</span></a></li>
 									<li><a href="toviewed.do" class="">已查看</a></li>
@@ -120,7 +120,7 @@
 									<div style="margin-top: 59px;"></div>   
 								</div> 
 								<div class="panel-footer">
-									<p class="before-search">检查时间</p>
+									<p class="before-search">检查时间：</p>
 									<p class="before-search-2">2017-01-04  20：30 </p>
 									<p class="before-type">检查类型：</p>
 									<p class="before-type-2">眼底检查</p>
@@ -169,17 +169,17 @@
 									<div class="before-blue"></div>
 									<p class="before-title">智能评估</p>
 								</div>
-								<div class="panel-body">
+								<div class="panel-body" style="height: 280px;">
 									<div style="margin-top:52px; margin-left: 60px; margin-bottom: 101px;">
 										<div style="float: left;">
-										<div class="easypie" data-percent="10" style="display: inline-block;width: 95px;font-size: 12px;
-										height: 95px;margin: 0 20px 20px 0px;vertical-align: top;position: relative;text-align: center;
+										<div class="easypie" data-percent="10" style="display: inline-block;width: 127px;font-size: 12px;
+										height: 127px;margin: 0 20px 20px 0px;vertical-align: top;position: relative;text-align: center;
 										padding-top: 29px;border-radius: 999px;"><div class="left-eye">0级</div><div class="left-eye2">无DR</div><div style="margin-top: 60px;">左眼分级</div></div>
 										</div>
 										<div style="float: left; margin-left: 54px;">
-										<div class="easypie" data-percent="20" style="display: inline-block;width: 95px;font-size: 12px;
-										height: 95px;margin: 0 20px 20px 0px;vertical-align: top;position: relative;text-align: center;
-										padding-top: 29px;border-radius: 999px;"><div class="right-eye">1级</div><div class="right-eye2">无DR</div><div style="margin-top: 60px;">右眼分级</div></div>
+										<div class="easypie" data-percent="20" style="display: inline-block;width: 127px;font-size: 12px;
+										height: 127px;margin: 0 20px 20px 0px;vertical-align: top;position: relative;text-align: center;
+										padding-top: 29px;border-radius: 999px;"><div class="right-eye">1级</div><div class="right-eye2">轻度NPDR</div><div style="margin-top: 60px;">右眼分级</div></div>
 										</div>   
 									</div>
 									<div style="clear:both"></div>
@@ -193,7 +193,9 @@
 									<div class="before-blue"></div>
 									<p class="before-title">评估意见</p>
 								</div>
-								<div class="panel-body">
+								<div class="panel-body" style="height: 280px;">									
+									<div class="judge_before" >左眼</div>
+									<div class="before-blue2" style="display: inline-block;"></div>
 								</div>
 							</div>
 						</div>
@@ -204,6 +206,20 @@
 									<p class="before-title">综合建议</p>
 								</div>
 								<div class="panel-body">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row" style="margin-top: 0px;">
+						<div class="col-md-12">
+							<div class="panel">
+								<div class="panel-heading">
+									<div style="text-align:center">
+										<button style="width:90px;height:36px;border-radius:4px;background-color: rgba(62,196,155,1);"><p style="margin:0px; color: white;"> 正常 </p></button>
+										<button style="width:90px;height:36px;border-radius:4px;background-color: rgba(234,182,4,1);"><p style="margin:0px; color: white;"> 一般 </p></button>
+										<button style="width:90px;height:36px;border-radius:4px;background-color: rgba(153,0,33,1);"><p style="margin:0px; color: white;"> 严重 </p></button>
+									</div>
+									<div style="clear:both"></div>
 								</div>
 							</div>
 						</div>

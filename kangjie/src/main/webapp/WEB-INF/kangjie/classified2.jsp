@@ -2,10 +2,9 @@
     pageEncoding="UTF-8"%>
 <!doctype html>
 <html lang="en">
-<link rel="stylesheet" href="vendor/chartist/css/chartist-custom.css">
-<link rel="stylesheet" href="vendor/chartist/css/font-awesome.css">
+
 <head>
-	<title>康捷医疗客服管理平台</title>
+	<title>康捷医疗客服管理平台 </title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -14,6 +13,7 @@
 	<link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="vendor/linearicons/style.css">
 	<link rel="stylesheet" href="vendor/chartist/css/chartist-custom.css">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" charset="utf-8"/>
 	<!-- MAIN CSS -->
 	<link rel="stylesheet" href="css/main.css">
 	<!-- FOR DEMO PURPOSES ONLY. You should remove this in your project -->
@@ -102,8 +102,9 @@
 			<!-- MAIN CONTENT -->
 			<div class="main-content">
 				<div class="container-fluid">
-					<div><button class="btn-return"><p class="btn-return-text"> < 返回</p></button>
-					<button  class="btn-return" style="margin-left: 10px;"><p class="btn-return-text"> ↓ 下一个</p></button></div>					
+					<button class="title-button"><p style="margin:0px; color: #FF414141;"><i class="lnr lnr-chevron-left"></i> 返回</p></button>
+					<button class="title-button" style="margin-left: 10px;"><p style="margin:0px; color: #FF414141;"><i class="lnr lnr-arrow-down"></i> 下一个</p></button>
+					<div style="margin-top: 29px;"></div>
 					<div class="row">
 						<div class="col-md-12">
 							<div class="panel">
@@ -119,12 +120,10 @@
 									<div style="margin-top: 59px;"></div>   
 								</div> 
 								<div class="panel-footer">
-									<p class="before-times">检查次数：</p>
-									<p class="before-times-2">6</p>
-									<p class="before-retime">反馈时间：</p>
-									<p class="before-retime-2">2017-01-04  20：30 </p>
-									<p class="before-tel">联系方式：</p>
-									<p class="before-tel-2">18022334455</p>
+									<p class="before-search">检查时间：</p>
+									<p class="before-search-2">2017-01-04  20：30 </p>
+									<p class="before-type">检查类型：</p>
+									<p class="before-type-2">眼底检查</p>
 									<div style="margin-top: 30px;"></div>
 								</div>
 							</div>
@@ -135,28 +134,79 @@
 							<div class="panel">
 								<div class="panel-heading">
 									<div class="before-blue"></div>
-									<p class="before-title">反馈信息</p>
+									<p class="before-title">图像</p>
 								</div> 
-								<div class="panel-body" style="height: 240px;"><p style="margin-top: 28px;margin-left: 14px;">WiFi已经连接成功，为什么采集不到图片</p></div>
+								<div style="clear:both"></div>
+								<div class="panel-body">
+									<div id="content1">
+										<div id="thumbs">
+											<div id="nav-left-thumbs"><</div>
+											<div id="pics-thumbs">
+												<img src="img/1B.jpg"/>
+												<img src="img/2B.jpg"/>
+												<img src="img/1B.jpg"/>
+												<img src="img/2B.jpg"/>
+												<img src="img/1B.jpg"/>
+												<img src="img/2B.jpg"/>
+												<img src="img/1B.jpg"/>
+												<img src="img/2B.jpg"/>
+												<img src="img/1B.jpg"/>
+												<img src="img/2B.jpg"/>
+												<img src="img/1B.jpg"/>
+												<img src="img/2B.jpg"/>
+											</div>
+											<div id="nav-right-thumbs">></div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-12">
+						<div class="col-md-4">
 							<div class="panel">
 								<div class="panel-heading">
 									<div class="before-blue"></div>
-									<p class="before-title">回复</p>
+									<p class="before-title">智能评估</p>
 								</div>
 								<div class="panel-body">
-								<textarea class="form-control" placeholder="请输入相关信息进行回复" rows="10"></textarea>
-								</div>
-								<div class="panel-heading">
-									<button style="width:90px;height:36px;border-radius:4px;background-color: #0A7BF7;display:block;margin:0 auto"><p style="margin:0px; color: white;"> 发送</p></button>
+									<div style="margin-top:52px; margin-left: 60px; margin-bottom: 101px;">
+										<div style="float: left;">
+										<div class="easypie" data-percent="10" style="display: inline-block;width: 95px;font-size: 12px;
+										height: 95px;margin: 0 20px 20px 0px;vertical-align: top;position: relative;text-align: center;
+										padding-top: 29px;border-radius: 999px;"><div class="left-eye">0级</div><div class="left-eye2">无DR</div><div style="margin-top: 60px;">左眼分级</div></div>
+										</div>
+										<div style="float: left; margin-left: 54px;">
+										<div class="easypie" data-percent="20" style="display: inline-block;width: 95px;font-size: 12px;
+										height: 95px;margin: 0 20px 20px 0px;vertical-align: top;position: relative;text-align: center;
+										padding-top: 29px;border-radius: 999px;"><div class="right-eye">1级</div><div class="right-eye2">无DR</div><div style="margin-top: 60px;">右眼分级</div></div>
+										</div>   
+									</div>
+									<div style="clear:both"></div>
+									<div style="margin-top: 54px;"></div>  
 								</div>
 							</div>
 						</div>
-					</div>
+						<div class="col-md-4">
+							<div class="panel">
+								<div class="panel-heading">
+									<div class="before-blue"></div>
+									<p class="before-title">评估意见</p>
+								</div>
+								<div class="panel-body">
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="panel">
+								<div class="panel-heading">
+									<div class="before-blue"></div>
+									<p class="before-title">综合建议</p>
+								</div>
+								<div class="panel-body">
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -173,6 +223,21 @@
 	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 	<script src="vendor/jquery-slimscroll/jquery.slimscroll.min.js"></script>
 	<script src="scripts/klorofil-common.js"></script>
+	<script src="scripts/prefixfree.min.js"></script>				
+	<script src="scripts/zoom-slideshow.js"></script>
+	<script src="scripts/easypiechart-plugin.js"></script>   
+	<script>
+		$(document).ready(function() {
+			$('#view').setZoomPicture({
+				thumbsContainer: '#pics-thumbs',
+				prevContainer: '#nav-left-thumbs',
+				nextContainer: '#nav-right-thumbs',
+				zoomContainer: '#zoom',
+				zoomLevel: 2,
+				loadMsg: 'Chargement...'
+			}); 
+		});
+	</script>
 </body>
 
 </html>

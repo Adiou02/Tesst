@@ -2,10 +2,9 @@
     pageEncoding="UTF-8"%>
 <!doctype html>
 <html lang="en">
-<link rel="stylesheet" href="vendor/chartist/css/chartist-custom.css">
-<link rel="stylesheet" href="vendor/chartist/css/font-awesome.css">
+
 <head>
-	<title>康捷医疗客服管理平台</title>
+	<title>康捷医疗客服管理平台 </title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -102,8 +101,9 @@
 			<!-- MAIN CONTENT -->
 			<div class="main-content">
 				<div class="container-fluid">
-					<div><button class="btn-return"><p class="btn-return-text"> < 返回</p></button>
-					<button  class="btn-return" style="margin-left: 10px;"><p class="btn-return-text"> ↓ 下一个</p></button></div>					
+					<button class="title-button"><p style="margin:0px; color: #FF414141;"><i class="lnr lnr-chevron-left"></i> 返回</p></button>
+					<button class="title-button" style="margin-left: 10px;"><p style="margin:0px; color: #FF414141;"><i class="lnr lnr-arrow-down"></i> 下一个</p></button>
+					<div style="margin-top: 29px;"></div>
 					<div class="row">
 						<div class="col-md-12">
 							<div class="panel">
@@ -114,17 +114,17 @@
 									</div>
 									<div style="clear:both"></div>
 									<div style="margin-top: 16px;">
-										<img src="img/women.png" style="float: left;"><p class="before-name">张三</p><p class="before-id">ID : 18710998996</p><p class="before-age">66岁</p>   
+										<p class="before-name">张三</p><p class="before-id">主任医师</p><p class="before-age">苏州理想眼科医院/眼科</p>   
 									</div>
 									<div style="margin-top: 59px;"></div>   
 								</div> 
 								<div class="panel-footer">
-									<p class="before-times">检查次数：</p>
-									<p class="before-times-2">6</p>
-									<p class="before-retime">反馈时间：</p>
-									<p class="before-retime-2">2017-01-04  20：30 </p>
-									<p class="before-tel">联系方式：</p>
-									<p class="before-tel-2">18022334455</p>
+									<p class="before-search">检查时间</p>
+									<p class="before-search-2">2017-01-04  20：30 </p>
+									<p class="before-type">执业证书（张）: </p>
+									<p class="before-type-2">1</p>
+									<p class="before-type">职称证书（张）: </p>
+									<p class="before-type-2">1</p>
 									<div style="margin-top: 30px;"></div>
 								</div>
 							</div>
@@ -134,29 +134,98 @@
 						<div class="col-md-12">
 							<div class="panel">
 								<div class="panel-heading">
-									<div class="before-blue"></div>
-									<p class="before-title">反馈信息</p>
-								</div> 
-								<div class="panel-body" style="height: 240px;"><p style="margin-top: 28px;margin-left: 14px;">WiFi已经连接成功，为什么采集不到图片</p></div>
+									<div>
+										<div class="before-blue"></div>
+										<p class="before-title">专业擅长</p>
+									</div>
+									<div style="clear:both"></div>
+								</div>
+								<div class="panel-body">
+									<div class="col-md-6">
+										<div style="height: 120px;">
+											<div style="margin-top: 24px;">
+												<div class="mtitle">											
+													<p class="mtitle2">简介</p>
+												</div>
+												<div style="margin-left: 60px;">
+													  武汉大学医学学士，中国中医科学院中医结合硕士、博士。北京中医药大学授课教师。北京市中医药学会眼科
+													分会委员。擅长中西结合治疗结膜
+												</div>
+											</div>
+										</div>
+									</div>   
+									<div class="col-md-6">
+										<div style="height: 120px;">
+											<div style="margin-top: 24px;">
+												<div class="mtitle">											
+													<p class="mtitle2">擅长</p>
+												</div>
+												<div style="margin-left: 60px;">
+													 结膜炎，角膜炎，白内障，干眼，屈光不正，飞蚊眼，眼外伤，近视，视网膜病，青光眼
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-12">
+						<div class="col-md-6">
 							<div class="panel">
 								<div class="panel-heading">
-									<div class="before-blue"></div>
-									<p class="before-title">回复</p>
+									<div>
+										<div class="before-blue"></div>
+										<p class="before-title">执业证书</p>
+									</div>
+									<div style="clear:both"></div>
 								</div>
 								<div class="panel-body">
-								<textarea class="form-control" placeholder="请输入相关信息进行回复" rows="10"></textarea>
+									<div style="width:800px;height:390px;">
+										<img class="pimg" height="325" width="428" src="img/profile-bg.png" style="margin-left: 138px;margin-top: 26px;" />
+									</div>
+									<div id="outerdiv" style="position:fixed;top:0;left:0;background:rgba(0,0,0,0.7);z-index:2;width:100%;height:100%;display:none;">
+									    <div id="innerdiv" style="position:absolute;">
+									        <img id="bigimg" style="border:5px solid #fff;" src="" />
+									    </div>
+									</div>   
 								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="panel">
 								<div class="panel-heading">
-									<button style="width:90px;height:36px;border-radius:4px;background-color: #0A7BF7;display:block;margin:0 auto"><p style="margin:0px; color: white;"> 发送</p></button>
+									<div>
+										<div class="before-blue"></div>
+										<p class="before-title">职称证书</p>
+									</div>
+									<div style="clear:both"></div>
+								</div>
+								<div class="panel-body">
+									<div style="width:800px;height:390px;">
+										<img class="pimg" height="325" width="428" src="img/profile-bg.png" style="margin-left: 138px;margin-top: 26px;" />
+									</div>
+									<div id="outerdiv" style="position:fixed;top:0;left:0;background:rgba(0,0,0,0.7);z-index:2;width:100%;height:100%;display:none;">
+									    <div id="innerdiv" style="position:absolute;">
+									        <img id="bigimg" style="border:5px solid #fff;" src="" />
+									    </div>
+									</div>   
 								</div>
 							</div>
 						</div>
 					</div>
+					<div class="row" style="margin-top: 0px;">
+						<div class="col-md-12">
+							<div class="panel">
+								<div class="panel-heading">
+									<div>
+										<p class="before-result">审核结果：</p>
+										<p class="before-result-value">通过</p>
+									</div>
+									<div style="clear:both"></div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -173,6 +242,16 @@
 	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 	<script src="vendor/jquery-slimscroll/jquery.slimscroll.min.js"></script>
 	<script src="scripts/klorofil-common.js"></script>
+	<script src="scripts/imgShow.js"></script>
+	<script>
+		$(document).ready(function() {
+			 $(".pimg").click(function(){  
+		            var _this = $(this);//将当前的pimg元素作为_this传入函数  
+		            imgShow("#outerdiv", "#innerdiv", "#bigimg", _this);  
+		    });  
+			 
+		});
+	</script>
 </body>
 
 </html>

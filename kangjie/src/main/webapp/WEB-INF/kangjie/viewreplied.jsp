@@ -66,8 +66,8 @@
 				<nav>
 					<ul class="nav">
 						<li>
-							<a href="#classify" data-toggle="collapse" class="collapsed"><i class="lnr lnr-file-empty"></i> <span>报告分类</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
-							<div id="classify" class="collapse ">
+							<a href="#classify" data-toggle="collapse" class="active" aria-expanded="true" ><i class="lnr lnr-file-empty"></i> <span>报告分类</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
+							<div id="classify" class="collapse in" aria-expanded="true">
 								<ul class="nav">
 									<li><a href="toclassify.do" class="">待分类报告<span class="label label-primary">80</span></a></li>
 									<li><a href="toclassified.do" class="">已分类报告</a></li>
@@ -75,8 +75,8 @@
 							</div>
 						</li>
 						<li>
-							<a href="#audit" data-toggle="collapse" class="collapsed"><i class="lnr lnr-file-empty"></i> <span>审核医生</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
-							<div id="audit" class="collapse ">
+							<a href="#audit" data-toggle="collapse" class="collapsed" aria-expanded="true" ><i class="lnr lnr-file-empty"></i> <span>审核医生</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
+							<div id="audit" class="collapse in" aria-expanded="true">
 								<ul class="nav">
 									<li><a href="toaudit.do" class="">待审批医生<span class="label label-primary">20</span></a></li>
 									<li><a href="toaudited.do" class="">已审批医生</a></li>
@@ -84,8 +84,8 @@
 							</div>
 						</li>
 						<li>
-							<a href="#view" data-toggle="collapse" class="collapsed"><i class="lnr lnr-file-empty"></i> <span>用户反馈</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
-							<div id="view" class="collapse ">
+							<a href="#view" data-toggle="collapse" class="collapsed" aria-expanded="true" ><i class="lnr lnr-file-empty"></i> <span>用户反馈</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
+							<div id="view" class="collapse in" aria-expanded="true">
 								<ul class="nav">
 									<li><a href="toview.do" class="">未查看<span class="label label-primary">13</span></a></li>
 									<li><a href="toviewed.do" class="">已查看</a></li>
@@ -108,39 +108,49 @@
 						<div class="col-md-12">
 							<div class="panel">
 								<div class="panel-heading">
-									<div class="panel-title-before" style=""></div>
-									<h3 class="panel-title">基本信息</h3>
-									<div class="panel-gender" style=""><i class="fa fa-venus" style="font-size:14px"></i></div>
-									<div class="panel-name">张三</div>
-									<div class="panel-id">ID : 18710998996</div>
-									<div class="panel-age">66周岁</div>
-									<div class="panel-line"></div>
-									<div class="panel-item" style="margin-left: 0px;">检查次数：</div>
-									<div class="panel-value">6</div>
-									<div class="panel-item">反馈时间：</div>
-									<div class="panel-value">2017-01-04 20：30</div>
-									<div class="panel-item">联系方式：</div>
-									<div class="panel-value">186253679897</div>
+									<div>
+										<div class="before-blue"></div>
+										<p class="before-title">基本信息</p>
+									</div>
+									<div style="clear:both"></div>
+									<div style="margin-top: 16px;">
+										<img src="img/women.png" style="float: left;"><p class="before-name">张三</p><p class="before-id">ID : 18710998996</p><p class="before-age">66岁</p>   
+									</div>
+									<div style="margin-top: 59px;"></div>   
+								</div> 
+								<div class="panel-footer">
+									<p class="before-times">检查次数：</p>
+									<p class="before-times-2">6</p>
+									<p class="before-retime">反馈时间：</p>
+									<p class="before-retime-2">2017-01-04  20：30 </p>
+									<p class="before-tel">联系方式：</p>
+									<p class="before-tel-2">18022334455</p>
+									<div style="margin-top: 30px;"></div>
 								</div>
 							</div>
 						</div>
+					</div>
+					<div class="row">
 						<div class="col-md-12">
 							<div class="panel">
-								<div class="panel-heading" style="height: 46px;">
-									<div class="panel-title-before" style=""></div>
-									<h3 class="panel-title">反馈信息</h3>
-								</div>
+								<div class="panel-heading">
+									<div class="before-blue"></div>
+									<p class="before-title">反馈信息</p>
+								</div> 
 								<div class="panel-body" style="height: 240px;"><p style="margin-top: 28px;margin-left: 14px;">WiFi已经连接成功，为什么采集不到图片</p></div>
 							</div>
 						</div>
+					</div>
+					<div class="row">
 						<div class="col-md-12">
 							<div class="panel">
-								<div class="panel-heading" style="height: 46px;">
-									<div class="panel-title-before" style=""></div>
-									<h3 class="panel-title">回复</h3>
+								<div class="panel-heading">
+									<div class="before-blue"></div>
+									<p class="before-title">回复</p>
 								</div>
 								<div class="panel-body" style="height: 240px;"><p style="margin-top: 28px;margin-left: 14px;">关机重新启动</p></div>
 							</div>
+						</div>
 						</div>
 					</div>
 				</div>
