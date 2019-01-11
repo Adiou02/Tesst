@@ -22,7 +22,19 @@ a {
 
 th {
   font-weight: 600; }
-
+.menu-line{
+	width:259px;
+	height:1px;
+	background:rgba(230,230,230,1);
+	opacity:0.12;
+}
+.menu-before{
+	float:left
+	width:4px;
+	height:4px;
+	background:rgba(230,230,230,1);
+	border-radius:50%;
+}
 .page-title-before{
 	width:4px;
 	height:22px;
@@ -59,7 +71,7 @@ th {
 	font-weight:bold;
 	color:rgba(65,65,65,1);
 }
-.before-result-value{
+.before-result-value-blue{
 	float:left;
 	width:100px;
 	height:18px;
@@ -67,6 +79,16 @@ th {
 	font-family:MicrosoftYaHei-Bold;
 	font-weight:bold;
 	color:rgba(10,123,247,1);
+	margin-left: 3px;
+}
+.before-result-value-red{
+	float:left;
+	width:100px;
+	height:18px;
+	font-size:18px;
+	font-family:MicrosoftYaHei-Bold;
+	font-weight:bold;
+	color:rgba(153,0,33,1);
 	margin-left: 3px;
 }
 .before-name{
@@ -929,6 +951,34 @@ fieldset[disabled] .btn {
   .panel .panel-heading{
   margin-left: 0px;
   }
+  .panel-heading-advice{
+  float:left;
+    width:28px;
+	height:13px;
+	font-size:14px;
+	font-family:SourceHanSansCN-Regular;
+	font-weight:400;
+	color:rgba(10,123,247,1);
+     }
+  .panel-heading-advice-blue{
+    float:left;
+    margin-left:7px;
+    margin-top:4px;
+    width:2px;
+	height:11px;
+	background:rgba(10,123,247,1);
+     }
+     .panel-heading-advice2{
+    float:left;
+    margin-left:7px;
+    margin-top:-2px;
+	height:15px;
+	font-size:14px;
+	font-family:SourceHanSansCN-Normal;
+	font-weight:400;
+	color:rgba(106,107,108,1);
+	line-height:24px;
+     }
   .panel .panel-body,
   .panel .panel-footer {
     padding-left: 25px;
@@ -1020,6 +1070,91 @@ fieldset[disabled] .btn {
     border:1px solid rgba(229,229,229,1);
     border-radius:0px 0px 4px 4px;
      }
+     .panel-body-1{
+     	width: 27%;
+     	height: 280px;
+     	padding-left: 20px;
+     	padding-top: 33px;
+     }
+      .panel-body-2{
+     	width: 346px;
+     	height: auto;
+     	min-height: 50px;
+     }
+     .panel-body-2-1{
+     float:left;
+     width:28px;
+	font-size:14px;
+	font-family:SourceHanSansCN-Regular;
+	font-weight:400;
+	color:rgba(10,123,247,1);
+     }
+     .panel-body-2-2{
+     float:left;
+     margin-left:5px;
+     margin-top:3px;
+    width:2px;  
+    height:auto;
+    min-height:11px;
+	background:rgba(10,123,247,1);
+     }
+     .panel-body-2-3{
+     float:left;
+     margin-left:5px;
+     width:306px;   
+	font-size:14px;
+	font-family:SourceHanSansCN-Normal;
+	font-weight:400;
+	color:rgba(106,107,108,1);
+     }
+     
+     .panel-body-3{
+     	height: auto;
+     	min-height: 56px;
+     	width:400px;
+		background:rgba(238,238,238,1);
+		opacity:0.5;
+     }
+     
+     .panel-body-3-1{
+     float:left;
+    width:3px;  
+    height:auto;
+    min-height:56px;
+	background:rgba(10,123,247,1);
+     }
+     .panel-body-3-2{
+     float:left;
+     margin-left:10px;
+     margin-top:20px;
+	height:13px;
+	font-size:14px;
+	font-family:SourceHanSansCN-Regular;
+	font-weight:400;
+	color:rgba(10,123,247,1);
+     }
+     .panel-body-3-3{
+     float:left;
+     margin-left:5px;
+     margin-top:23px;
+    width:2px;  
+    height:auto;
+    min-height:11px;
+	background:rgba(10,123,247,1);
+     }
+     .panel-body-3-4{
+     float:left;
+     margin-left:6px;
+     margin-top:20px;
+	 width:280px;
+	 height:auto;
+	 font-size:14px;
+	 font-family:SourceHanSansCN-Normal;
+	 font-weight:400;
+	 color:rgba(106,107,108,1);
+	 line-height:20px;
+     }
+     
      .panel .panel-body .p{
      width:326px;
 	height:17px;
@@ -1421,7 +1556,7 @@ ul.activity-list > li {
    	   .auth-box .left .k_logo_text{
       
       	position: relative;
-      	font-size:40px;
+      	font-size:36px;
       	font-weight:bold;
       	color:white;
       	width: 28%;
@@ -1445,7 +1580,7 @@ ul.activity-list > li {
    	   .auth-box .left .k_logo_foot{
       
       	position: relative;
-      	font-size:30px;
+      	font-size:26px;
       	color:white;
       	width: 50%;
  		height: 8%;
@@ -1504,7 +1639,7 @@ ul.activity-list > li {
     text-align: center;
     width: 70%;
     margin-left: 15%;
-    margin-top: 15%;
+    margin-top: 10%;
     }
     
   .auth-box .form-auth-small .btn {

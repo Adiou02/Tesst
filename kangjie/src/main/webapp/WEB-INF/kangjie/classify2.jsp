@@ -66,8 +66,9 @@
 				<nav>
 					<ul class="nav">
 						<li>
-							<a href="#classify" data-toggle="collapse" class="active" aria-expanded="true" ><i class="lnr lnr-file-empty"></i> <span>报告分类</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
-							<div id="classify" class="collapse in" aria-expanded="true">
+							<a  data-toggle="collapse" class="collapsed"  aria-expanded="true" > <span><img src="img/report.png">&nbsp;报告分类</span></a>
+							<div class="menu-line"></div>
+							<div id="audit" class="collapse in" aria-expanded="true">
 								<ul class="nav">
 									<li><a href="toclassify.do" class="">待分类报告<span class="label label-primary">80</span></a></li>
 									<li><a href="toclassified.do" class="">已分类报告</a></li>
@@ -75,7 +76,8 @@
 							</div>
 						</li>
 						<li>
-							<a href="#audit" data-toggle="collapse" class="collapsed" aria-expanded="true" ><i class="lnr lnr-file-empty"></i> <span>审核医生</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
+							<a data-toggle="collapse" class="collapsed" aria-expanded="true" > <span><img src="img/doctorsAudit.png">&nbsp;审核医生</span></a>
+							<div class="menu-line"></div>
 							<div id="audit" class="collapse in" aria-expanded="true">
 								<ul class="nav">
 									<li><a href="toaudit.do" class="">待审批医生<span class="label label-primary">20</span></a></li>
@@ -84,14 +86,16 @@
 							</div>
 						</li>
 						<li>
-							<a href="#view" data-toggle="collapse" class="collapsed" aria-expanded="true" ><i class="lnr lnr-file-empty"></i> <span>用户反馈</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
-							<div id="view" class="collapse in" aria-expanded="true">
+							<a data-toggle="collapse" class="collapsed" aria-expanded="true" > <span><img src="img/feedback.png">&nbsp;用户反馈</span></a>
+							<div class="menu-line"></div>
+							<div id="audit" class="collapse in" aria-expanded="true">
 								<ul class="nav">
 									<li><a href="toview.do" class="">未查看<span class="label label-primary">13</span></a></li>
 									<li><a href="toviewed.do" class="">已查看</a></li>
 								</ul>
 							</div>
 						</li>
+						
 					</ul>
 				</nav>
 			</div>
@@ -172,12 +176,12 @@
 								<div class="panel-body" style="height: 280px;">
 									<div style="margin-top:52px; margin-left: 60px; margin-bottom: 101px;">
 										<div style="float: left;">
-										<div class="easypie" data-percent="10" style="display: inline-block;width: 127px;font-size: 12px;
+										<div id="lefteye" class="easypie" data-percent="10" style="display: inline-block;width: 127px;font-size: 12px;
 										height: 127px;margin: 0 20px 20px 0px;vertical-align: top;position: relative;text-align: center;
 										padding-top: 29px;border-radius: 999px;"><div class="left-eye">0级</div><div class="left-eye2">无DR</div><div style="margin-top: 60px;">左眼分级</div></div>
 										</div>
 										<div style="float: left; margin-left: 54px;">
-										<div class="easypie" data-percent="20" style="display: inline-block;width: 127px;font-size: 12px;
+										<div id="righteye" class="easypie" data-percent="20" style="display: inline-block;width: 127px;font-size: 12px;
 										height: 127px;margin: 0 20px 20px 0px;vertical-align: top;position: relative;text-align: center;
 										padding-top: 29px;border-radius: 999px;"><div class="right-eye">1级</div><div class="right-eye2">轻度NPDR</div><div style="margin-top: 60px;">右眼分级</div></div>
 										</div>   
@@ -193,9 +197,20 @@
 									<div class="before-blue"></div>
 									<p class="before-title">评估意见</p>
 								</div>
-								<div class="panel-body" style="height: 280px;">									
-									<div class="judge_before" >左眼</div>
-									<div class="before-blue2" style="display: inline-block;"></div>
+								<div class="panel-body" style="height: 280px;">	
+									<div class="panel-body-1">
+										<div class="panel-body-2">
+											<div class="panel-body-2-1">左眼</div>
+											<div class="panel-body-2-2"></div>
+											<div class="panel-body-2-3">无明显糖尿病视网膜病变黑化轻黑化尿病视网膜病 轻度NPDR可能性较高</div>
+										</div>
+										<div></div>
+										<div class="panel-body-2">
+											<div class="panel-body-2-1">右眼</div>
+											<div class="panel-body-2-2"></div>
+											<div class="panel-body-2-3">轻度NPDR可能性较高，无明显视网</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -205,7 +220,24 @@
 									<div class="before-blue"></div>
 									<p class="before-title">综合建议</p>
 								</div>
-								<div class="panel-body">
+								<div class="panel-body" style="height: 280px;">	
+									<div class="panel-body-1">
+										<div class="panel-body-3">
+											<div class="panel-body-3-1"></div>
+											<div class="panel-body-3-2">无DR</div>
+											<div class="panel-body-3-3"></div>
+											<div class="panel-body-3-4">眼底无异常，根本不需要治疗，建议静养。</div>
+										</div>
+										<div style="margin-top: 10px;"></div>
+										<div style="clear:both"></div>
+										<div class="panel-body-3">
+											<div class="panel-body-3-1"></div>
+											<div class="panel-body-3-2">轻度NPDR</div>
+											<div class="panel-body-3-3"></div>
+											<div class="panel-body-3-4">建议均衡营养加强锻炼,增加睡眠质量。</div>
+										</div>
+										
+									</div>
 								</div>
 							</div>
 						</div>

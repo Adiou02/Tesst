@@ -65,8 +65,9 @@
 				<nav>
 					<ul class="nav">
 						<li>
-							<a href="#classify" data-toggle="collapse" class="active" aria-expanded="true" ><i class="lnr lnr-file-empty"></i> <span>报告分类</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
-							<div id="classify" class="collapse in" aria-expanded="true">
+							<a  data-toggle="collapse" class="collapsed"  aria-expanded="true" > <span><img src="img/report.png">&nbsp;报告分类</span></a>
+							<div class="menu-line"></div>
+							<div id="audit" class="collapse in" aria-expanded="true">
 								<ul class="nav">
 									<li><a href="toclassify.do" class="">待分类报告<span class="label label-primary">80</span></a></li>
 									<li><a href="toclassified.do" class="">已分类报告</a></li>
@@ -74,7 +75,8 @@
 							</div>
 						</li>
 						<li>
-							<a href="#audit" data-toggle="collapse" class="collapsed" aria-expanded="true" ><i class="lnr lnr-file-empty"></i> <span>审核医生</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
+							<a data-toggle="collapse" class="collapsed" aria-expanded="true" > <span><img src="img/doctorsAudit.png">&nbsp;审核医生</span></a>
+							<div class="menu-line"></div>
 							<div id="audit" class="collapse in" aria-expanded="true">
 								<ul class="nav">
 									<li><a href="toaudit.do" class="">待审批医生<span class="label label-primary">20</span></a></li>
@@ -83,14 +85,16 @@
 							</div>
 						</li>
 						<li>
-							<a href="#view" data-toggle="collapse" class="collapsed" aria-expanded="true" ><i class="lnr lnr-file-empty"></i> <span>用户反馈</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
-							<div id="view" class="collapse in" aria-expanded="true">
+							<a data-toggle="collapse" class="collapsed" aria-expanded="true" > <span><img src="img/feedback.png">&nbsp;用户反馈</span></a>
+							<div class="menu-line"></div>
+							<div id="audit" class="collapse in" aria-expanded="true">
 								<ul class="nav">
 									<li><a href="toview.do" class="">未查看<span class="label label-primary">13</span></a></li>
 									<li><a href="toviewed.do" class="">已查看</a></li>
 								</ul>
 							</div>
 						</li>
+						
 					</ul>
 				</nav>
 			</div>
