@@ -67,7 +67,7 @@
 						<li>
 							<a  data-toggle="collapse" class="collapsed"  aria-expanded="true" > <span><img src="img/report.png">&nbsp;报告分类</span></a>
 							<div class="menu-line"></div>
-							<div id="audit" class="collapse in" aria-expanded="true">
+							<div id="classify" class="collapse in" aria-expanded="true">
 								<ul class="nav">
 									<li><a href="toclassify.do" class="">待分类报告<span class="label label-primary">80</span></a></li>
 									<li><a href="toclassified.do" class="">已分类报告</a></li>
@@ -87,14 +87,13 @@
 						<li>
 							<a data-toggle="collapse" class="collapsed" aria-expanded="true" > <span><img src="img/feedback.png">&nbsp;用户反馈</span></a>
 							<div class="menu-line"></div>
-							<div id="audit" class="collapse in" aria-expanded="true">
+							<div id="view" class="collapse in" aria-expanded="true">
 								<ul class="nav">
 									<li><a href="toview.do" class="">未查看<span class="label label-primary">13</span></a></li>
 									<li><a href="toviewed.do" class="">已查看</a></li>
 								</ul>
 							</div>
 						</li>
-						
 					</ul>
 				</nav>
 			</div>
@@ -159,7 +158,7 @@
 												<td>男</td>
 												<td>1990-11-01</td>
 												<td>18719023768</td>
-												<td><a href="#"><img src="img/see.png"><span class="text_link">查看</span></a></td>
+												<td><a href="toviewreply.do"><img src="img/see.png"><span class="text_link">查看</span></a></td>
 											</tr>
 											<tr>
 												<td>2017-01-04 20：30</td>
@@ -168,7 +167,7 @@
 												<td>男</td>
 												<td>1990-11-01</td>
 												<td>18719023768</td>
-												<td><a href="#"><img src="img/see.png"><span class="text_link">查看</span></a></td>
+												<td><a href="toviewreply.do"><img src="img/see.png"><span class="text_link">查看</span></a></td>
 											</tr>
 											<tr>
 												<td>2017-01-04 20：30</td>
@@ -177,7 +176,7 @@
 												<td>男</td>
 												<td>1990-11-01</td>
 												<td>18719023768</td>
-												<td><a href="#"><img src="img/see.png"><span class="text_link">查看</span></a></td>
+												<td><a href="toviewreply.do"><img src="img/see.png"><span class="text_link">查看</span></a></td>
 											</tr>
 											<tr>
 												<td>2017-01-04 20：30</td>
@@ -186,7 +185,7 @@
 												<td>男</td>
 												<td>1990-11-01</td>
 												<td>18719023768</td>
-												<td><a href="#"><img src="img/see.png"><span class="text_link">查看</span></a></td>
+												<td><a href="toviewreply.do"><img src="img/see.png"><span class="text_link">查看</span></a></td>
 											</tr>
 											<tr>
 												<td>2017-01-04 20：30</td>
@@ -195,7 +194,7 @@
 												<td>男</td>
 												<td>1990-11-01</td>
 												<td>18719023768</td>
-												<td><a href="#"><img src="img/see.png"><span class="text_link">查看</span></a></td>
+												<td><a href="toviewreply.do"><img src="img/see.png"><span class="text_link">查看</span></a></td>
 											</tr>
 											<tr>
 												<td>2017-01-04 20：30</td>
@@ -204,7 +203,7 @@
 												<td>男</td>
 												<td>1990-11-01</td>
 												<td>18719023768</td>
-												<td><a href="#"><img src="img/see.png"><span class="text_link">查看</span></a></td>
+												<td><a href="toviewreply.do"><img src="img/see.png"><span class="text_link">查看</span></a></td>
 											</tr>
 											<tr>
 												<td>2017-01-04 20：30</td>
@@ -213,7 +212,7 @@
 												<td>男</td>
 												<td>1990-11-01</td>
 												<td>18719023768</td>
-												<td><a href="#"><img src="img/see.png"><span class="text_link">查看</span></a></td>
+												<td><a href="toviewreply.do"><img src="img/see.png"><span class="text_link">查看</span></a></td>
 											</tr>
 										</tbody>
 									</table>
